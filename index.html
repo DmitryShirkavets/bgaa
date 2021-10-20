@@ -27,37 +27,113 @@
     <!-- NEWS -->
     <section class="news">
         <div class="container">
-            <div class="news__wrapper row">
-                <div class="news__blog blog col-9">
+            <div class="news__wrapper">
+                <div class="news__blog blog">
                     <h1 class="blog__title">Главные новости</h1>
                     <article class="blog__basic row">
-                        <div class="blog__basic-info col-6 d-grid">
+                        <div class="blog__basic-info col d-grid">
                             <h2 class="blog__basic-title text-white">Курсанты БГАА приняли участие в международном проекте «Летний университет – 2021» (г. Москва)</h2>
                             <p class="blog__basic-text text-white">«Летний университет» – это масштабный проект Союзного государства. Ведущие университеты Российской Федерации с 4 по 18 июля 2021 года обучали студентов Республики Беларусь по дополнительным образовательным программам.</p>
-                            <span class="blog__basic-date align-self-end text-white">19 июля 2021</span>
-                            <button class="blog__basic-button align-self-end text-black">Курсанты</button>
+                            <span class="blog__basic-date date align-self-end text-white">19 июля 2021</span>
+                            <button class="blog__basic-button btn--news align-self-end text-black">Курсанты</button>
                         </div>
-                        <img class="blog__basic-img col-6 p-0" src="./img/basic-news.png" alt="">
+                        <img class="blog__basic-img col p-0" src="./img/basic-news.png" alt="">
                     </article>
                     <div class="blog__wrapper row">
-                        <article class="blog__post col-4 p-0">
+                        <article class="blog__post card col p-0">
                             <img class="blog__post-img" src="./img/blog1.png" alt="">
-                            <h2 class="blog__post-title">Выпуск курсантов – 2021</h2>
-                            <p class="blog__post-text">30 июня 2021 года в Белорусской государственной академии авиации состоялось значимое событие – выпуск новоиспеченных авиационных специалистов. Мероприятие прошло на базе Минского аэроклуба ДОСААФ имени дважды Героя Советского Союза Сергея Грицевца.</p>
-                            <span class="blog__post-date">30 июня 2021</span>
-                            <button class="blog__post-button">Выпускники</button>
+                            <div class="blog__post-body card-body d-grid">
+                                <h2 class="blog__post-title card-title">Выпуск курсантов – 2021</h2>
+                                <p class="blog__post-text card-text">30 июня 2021 года в Белорусской государственной академии авиации состоялось значимое событие – выпуск новоиспеченных авиационных специалистов. Мероприятие прошло на базе Минского аэроклуба ДОСААФ имени дважды Героя Советского Союза Сергея Грицевца.</p>
+                                <span class="blog__post-date date">30 июня 2021</span>
+                                <button class="blog__post-button btn--news">Выпускники</button>
+                            </div>
                         </article>
-                        <article class="blog__post col-4 p-0">
+                        <article class="blog__post card col p-0">
                             <img class="blog__post-img" src="./img/blog2.png" alt="">
+                            <div class="blog__post-body card-body d-grid">
+                                <h2 class="blog__post-title card-title">В академии начался приём документов для поступления!</h2>
+                                <p class="blog__post-text card-text">20 июля 2021 года в Белорусской государственной академии авиации началась вступительная кампания. Это значит, что те абитуриенты, которые сделали свой выбор в пользу БГАА, подают документы, чтобы в будущем стать курсантами.</p>
+                                <span class="blog__post-date date">20 июля 2021</span>
+                                <button class="blog__post-button btn--news">Абитуриенты</button>
+                            </div>
                         </article>
-                        <article class="blog__post col-4 p-0">
+                        <article class="blog__post card col p-0">
                             <img class="blog__post-img" src="./img/blog3.png" alt="">
+                            <div class="blog__post-body card-body d-grid">
+                                <h2 class="blog__post-title card-title">Положено начало сотрудничеству с ТГТУ</h2>
+                                <p class="blog__post-text card-text">Делегация Ташкентского государственного транспортного университета (далее – ТГТУ) 6 июля посетила Белорусскую государственную академию авиации. В ходе визита гости познакомились со структурой БГАА. На рабочей встрече были определены пути взаимовыгодного сотрудничества в рамках научной и образовательной сфер.</p>
+                                <span class="blog__post-date date">6 июня 2021</span>
+                                <button class="blog__post-button btn--news">Сотрудничество</button>
+                            </div>
                         </article>
                     </div>
                 </div>
-                <div class="news__timeline timeline col-3">
+                <div class="news__timeline timeline d-flex flex-column">
                     <h1 class="timeline__title">Лента новостей</h1>
+                    <div class="timeline__wrapper d-flex flex-column">
+                        <article class="timeline__news">
+                            <h2 class="timeline__news-title">Официальный визит заместителя Председателя МАК – Председателя комиссии по ОрВД </h2>
+                            <span class="timeline__news-date date">26 июля 2021</span>
+                            <button class="timeline__news-button btn--news">Сотрудничество</button>
+                        </article>
+                        <article class="timeline__news">
+                            <h2 class="timeline__news-title">Вступительные испытания для пилотов</h2>
+                            <span class="timeline__news-date date">23 июля 2021</span>
+                            <button class="timeline__news-button btn--news">Курсанты</button>
+                        </article>
+                        <article class="timeline__news">
+                            <h2 class="timeline__news-title">В академии начался приём документов для поступления! </h2>
+                            <span class="timeline__news-date date">20 июля 2021</span>
+                            <button class="timeline__news-button btn--news">Абитуренты</button>
+                        </article>
+                        <article class="timeline__news">
+                            <h2 class="timeline__news-title">Профориентационная работа в 2021 году</h2>
+                            <span class="timeline__news-date date">07 июля 2021</span>
+                            <button class="timeline__news-button btn--news">Абитуренты</button>
+                        </article>
+                        <article class="timeline__news">
+                            <h2 class="timeline__news-title">Начало трудового лета!</h2>
+                            <span class="timeline__news-date date">01 июля 2021</span>
+                            <button class="timeline__news-button btn--news">Курсанты</button>
+                        </article>
+                        <button class="timeline__button">Все новости</button>
+                    </div>
                 </div>
+                <nav class="categories d-flex justify-content-center">
+                    <ul class="categories__list">
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Курсанты</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Выпускники</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Абитуриенты</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Сотрудничество</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Академия в лицах</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Наука</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Образование</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Жизнь в БГАА</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Фотогалерея</a>
+                        </li>
+                        <li class="categories__list-item">
+                            <a class="categories__list-link" href="#">Видеоматериалы</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </section>
